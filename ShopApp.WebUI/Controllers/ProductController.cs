@@ -17,7 +17,7 @@ namespace ShopApp.WebUI.Controllers
                 new Product{Name = "Apple 8",Price=3000,Description="2018 date"},
                 new Product{Name = "Apple X",Price=5000,Description="2019 date"}
             };
-
+            
             return View(products);
         }
         public IActionResult Details(int id)
