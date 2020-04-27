@@ -33,3 +33,4 @@ C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.Web
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Details.cshtml.g.cs
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs
+C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs

@@ -20521,8 +20521,8 @@
   "RootNamespace": "ShopApp.WebUI",
   "Documents": [
     {
-      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Products\\Index.cshtml",
-      "TargetPath": "Views\\Products\\Index.cshtml",
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Product\\List.cshtml",
+      "TargetPath": "Views\\Product\\List.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20531,18 +20531,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Product\\Details.cshtml",
+      "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Products\\Details.cshtml",
-      "TargetPath": "Views\\Products\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Products\\List.cshtml",
-      "TargetPath": "Views\\Products\\List.cshtml",
       "FileKind": "mvc"
     }
   ],

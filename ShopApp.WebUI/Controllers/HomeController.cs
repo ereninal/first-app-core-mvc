@@ -9,7 +9,7 @@ namespace ShopApp.WebUI.Controllers
         {
             int hour =DateTime.Now.Hour;
             ViewBag.Greeting = hour>12 ? "İyi Günler" :"Günaydın";
-            ViewBag.UserName = "Eren";
+            ViewBag.UserName = "Eren2";
             return View();
         }
         public IActionResult About()
