@@ -30,6 +30,6 @@ C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.RazorTargetAssemblyInfo.cs
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.Views.pdb
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.csproj.CopyComplete
-C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
-C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
-C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Products\List.cshtml.g.cs
+C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Details.cshtml.g.cs
+C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs
