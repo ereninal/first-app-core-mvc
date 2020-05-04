@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ShopApp.WebUI.Models;
+using ShopApp.WebUI.ViewModels;
 using System.Collections.Generic;
 
 
@@ -22,8 +23,12 @@ namespace ShopApp.WebUI.Controllers
                 new Product{Name = "Apple 8",Price=3000,Description="2018 date"},
                 new Product{Name = "Apple X",Price=5000,Description="2019 date"}
             };
-            
-            return View(products);
+            var category = new Category{Name="Telefon",Desciprtion="IOS"};
+            var models = new ProductViewModel{
+                categorys =category,
+                products = products
+            };
+            return View(models);
         }
         public IActionResult Details(int id)
         {

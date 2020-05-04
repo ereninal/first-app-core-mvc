@@ -19,8 +19,15 @@ using ShopApp.WebUI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\Views\_ViewImports.cshtml"
+using ShopApp.WebUI.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1da7f45d266aec3d42533fecd86dadbf5cb83e9a", @"/Views/Product/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"293f0d646d793e7ab4d1e26f6bea5601ee9844b7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"359bc1a6b18a9ae3d76677154e888de580891aff", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ShopApp.WebUI.Models.Product>
     {
         #line hidden
@@ -49,7 +56,7 @@ using ShopApp.WebUI.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1da7f45d266aec3d42533fecd86dadbf5cb83e9a3098", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1da7f45d266aec3d42533fecd86dadbf5cb83e9a3282", async() => {
                 WriteLiteral("\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n");
             }
             );
@@ -63,7 +70,7 @@ using ShopApp.WebUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1da7f45d266aec3d42533fecd86dadbf5cb83e9a4209", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1da7f45d266aec3d42533fecd86dadbf5cb83e9a4393", async() => {
                 WriteLiteral("\r\n    ");
 #nullable restore
 #line 10 "C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\Views\Product\Details.cshtml"
