@@ -8,7 +8,12 @@ namespace ShopApp.WebUI.Controllers
     public class ProductController : Controller
     {
         public IActionResult Index(){
-            return View();
+
+            var product = new Product{Name ="Apple 6",Price=2500,Description="2016 date"};
+            var category = new Category{Name="Telefon",Desciprtion="IOS"};
+            //ViewBag("product");
+            ViewBag.category = category;;
+            return View(product);
         }
         public IActionResult list()
         {
