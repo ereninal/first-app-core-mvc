@@ -11,11 +11,14 @@
    @foreach (var item in Model.products)
    {
      <h1>@Model.categorys.Name</h1>
-      <ul>
-        <li>@item.Name</li>
-        <li>@item.Price</li>
-        <li>@item.Description</li>
-      </ul>
+     <div>
+        <ul>
+          <li>@item.Name</li>
+          <li>@item.Price</li>
+          <li>@item.Description</li>
+          <li>@item.Amount</li>
+        </ul>
+      </div>
    }
 </body>
 </html>
