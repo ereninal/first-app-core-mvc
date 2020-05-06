@@ -20521,8 +20521,23 @@
   "RootNamespace": "ShopApp.WebUI",
   "Documents": [
     {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Shared\\_header.cshtml",
+      "TargetPath": "Views\\Shared\\_header.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Shared\\_product.cshtml",
+      "TargetPath": "Views\\Shared\\_product.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Product\\List.cshtml",
       "TargetPath": "Views\\Product\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Shared\\_navbar.cshtml",
+      "TargetPath": "Views\\Shared\\_navbar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20538,6 +20553,11 @@
     {
       "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Product\\Details.cshtml",
       "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Shared\\_noproduct.cshtml",
+      "TargetPath": "Views\\Shared\\_noproduct.cshtml",
       "FileKind": "mvc"
     },
     {

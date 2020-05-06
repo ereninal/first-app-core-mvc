@@ -34,3 +34,7 @@ C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_navbar.cshtml.g.cs
+C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_header.cshtml.g.cs
+C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_noproduct.cshtml.g.cs
+C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_product.cshtml.g.cs
