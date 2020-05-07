@@ -1,7 +1,8 @@
 @model ProductViewModel
 @{
   var decs ="";
-  var products = Model.products;
+  var products = Model.Products;
+  var categories = Model.Categories;
 }
 
 <!DOCTYPE html>
@@ -33,22 +34,33 @@
  <main>
    <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h1>@Model.categorys.Name</h1>
+        <div class="col-md-3">
+          <ul class="list-group">
+            @foreach (var item in categories )
+            {
+                <a href="#" class="list-group-item list-group-item-action">@item.Name</a>
+            }
+          </ul>
+        </div>
+        
+        <div class="col-md-9">
+          <div class="row">
+            @if (products.Count != 0)
+            {
+                @foreach (var item in products)
+                {
+                  <div class="col-md-4 p-1">
+                    @await Html.PartialAsync("_product",item)
+                  </div>
+                }
+            }
+            else{
+              @await Html.PartialAsync("_noproduct")
+            }
         </div>
       </div>
-      <div class="row">
-        @if (products.Count != 0)
-        {
-            @foreach (var item in products)
-            {
-              <div class="col-md-4 p-1">
-                @await Html.PartialAsync("_product",item)
-              </div>
-            }
-          
-        }
-        </div>  
+    </div>
+      
      </div>
  </main> 
 </body>

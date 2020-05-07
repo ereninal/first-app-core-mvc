@@ -27,10 +27,17 @@ namespace ShopApp.WebUI.Controllers
                 new Product{Name = "Apple 8",Price=7000,Description="2018 date",Amount=2},
                 new Product{Name = "Apple 8 PLUS",Price=8000,Description="2018 date",Amount=30},
             };
-            var category = new Category{Name="Telefon",Desciprtion="IOS"};
+            var categories = new List<Category>()
+            {
+                new Category{Name="Telefon",Desciprtion="IOS"},
+                new Category{Name="Bilgisayar",Desciprtion="Windows"},
+                new Category{Name="Tablet",Desciprtion="IOS"},
+                new Category{Name="Televizyon",Desciprtion="IOS"}
+
+            };
             var models = new ProductViewModel{
-                categorys =category,
-                products = products
+                    Categories = categories,
+                    Products =products
             };
             return View(models);
         }
