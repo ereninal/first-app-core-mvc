@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 namespace ShopApp.WebUI {
     public class Startup {
@@ -21,9 +23,10 @@ namespace ShopApp.WebUI {
             if (env.IsDevelopment ()) {
                 app.UseDeveloperExceptionPage ();
             }
+            app.UseStaticFiles();// wwwroot dosyasını kullanmak için
             app.UseStaticFiles (new StaticFileOptions {
                 FileProvider = new PhysicalFileProvider (
-                        Path.Combine (Directory.GetCurrentDirectory (), "node_modules")),
+                    Path.Combine (Directory.GetCurrentDirectory(), "node_modules")),
                     RequestPath = "/modules"
             });
             app.UseRouting ();

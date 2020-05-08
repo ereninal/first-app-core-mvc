@@ -1,8 +1,9 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using ShopApp.WebUI.Models;
 using ShopApp.WebUI.ViewModels;
-using System.Collections.Generic;
+
 namespace ShopApp.WebUI.Controllers
 {
     public class HomeController : Controller

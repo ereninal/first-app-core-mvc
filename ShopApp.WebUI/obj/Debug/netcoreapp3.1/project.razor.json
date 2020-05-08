@@ -20556,6 +20556,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Shared\\_layout.cshtml",
+      "TargetPath": "Views\\Shared\\_layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Shared\\_noproduct.cshtml",
       "TargetPath": "Views\\Shared\\_noproduct.cshtml",
       "FileKind": "mvc"
