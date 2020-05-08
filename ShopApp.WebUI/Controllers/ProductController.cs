@@ -36,8 +36,8 @@ namespace ShopApp.WebUI.Controllers
 
             };
             var models = new ProductViewModel{
-                    Categories = categories,
-                    Products =products
+                Categories = categories,
+                Products = products
             };
             return View(models);
         }

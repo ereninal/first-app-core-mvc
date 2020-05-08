@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Shop App/Home</title>
+</head>
+<body>
+    @await Html.PartialAsync("_navbar");
+ <header>
+   @*  @await Html.PartialAsync("_header"); *@
+   <partial name ="_header">
+ </header>
+ <main>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+ </main>
+ <footer>html5</footer>
+<div class="footer">bootstrap</div>
+</body>
+</html>
