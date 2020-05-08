@@ -1,11 +1,11 @@
 @model Product
 <div class="card">
-    <img src="https://cdn.istanbulbilisim.com/p/0/apple-iphone-11-128-gb-kirmizi-apple-turkiye-garantili-cep-telefonu_289236.png" alt="" class="card-img-top">
+    <img src="~/img/@Model.ImageUrl" alt="" class="card-img-top">
     <div class="card-body">
     <h5 class="card-title">@Model.Name</h5>
     <p class="card-text">@Model.Description</p>
     <p class="card-text">Fiyat :@Model.Price</p>
-    <p class="card-text">Kalan Adet :@Model.Amount</p>
+    <p class="card-text">Kalan Adet :@Model.ImageUrl</p>
     <a href="" class="btn btn-primary">İncele</a>
     
     </div>
