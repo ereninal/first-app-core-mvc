@@ -39,3 +39,4 @@ C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_noproduct.cshtml.g.cs
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_product.cshtml.g.cs
 C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_layout.cshtml.g.cs
+C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\bin\Debug\netcoreapp3.1\package-lock.json
