@@ -15,8 +15,12 @@
  <main>
 
     <div class="container">
-        @RenderSection("Category",required: false)
-        @RenderBody()
+        <div class="row">
+            @RenderSection("Category",required: false)
+            <div class="col-md-9">
+                @RenderBody()
+            </div>
+        </div>
     </div>
  </main>
 <footer class="py-5 bg-dark text-white text-center">Shopp App</footer>
