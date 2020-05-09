@@ -1,12 +1,20 @@
 @model Product
-<div class="card">
+
+@if(Model != null)
+{
+    <div class="card">
     <img src="~/img/@Model.ImageUrl" alt="" class="card-img-top">
     <div class="card-body">
     <h5 class="card-title">@Model.Name</h5>
     <p class="card-text">@Model.Description</p>
     <p class="card-text">Fiyat :@Model.Price</p>
     <p class="card-text">Kalan Adet :@Model.ImageUrl</p>
-    <a href="" class="btn btn-primary">İncele</a>
+    <a asp-controller="Product" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-primary">İncele</a>
     
     </div>
 </div>
+}
+else{
+   
+    @await Html.PartialAsync("_noproduct")
+}

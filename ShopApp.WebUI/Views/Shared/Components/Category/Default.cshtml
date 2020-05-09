@@ -1,0 +1,11 @@
+@model List<Category>
+<div class="row">
+  <div class="col-md-3">
+    <ul class="list-group">
+      @foreach (var item in Model)
+      {
+          <a href="#" class="list-group-item list-group-item-action">@item.Name</a>
+      }
+    </ul>
+  </div>
+</div>

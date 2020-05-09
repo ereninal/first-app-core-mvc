@@ -21,13 +21,13 @@ using ShopApp.WebUI.Models;
 #nullable disable
 #nullable restore
 #line 2 "C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\Views\_ViewImports.cshtml"
-using ShopApp.WebUI.ViewModels;
+using ShopApp.WebUI.ViewComponents;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ff7eb6c96a3b46ae736a628398c7c771ee345080", @"/Views/Home/About.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d92f221954cd04f7795f709513028a13b6a3d25", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0a2f431fdff61db06a429012157e63a377b7e971", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_About : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -56,7 +56,7 @@ using ShopApp.WebUI.ViewModels;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff7eb6c96a3b46ae736a628398c7c771ee3450803236", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff7eb6c96a3b46ae736a628398c7c771ee3450803240", async() => {
                 WriteLiteral("\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n");
             }
             );
@@ -70,7 +70,7 @@ using ShopApp.WebUI.ViewModels;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff7eb6c96a3b46ae736a628398c7c771ee3450804347", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff7eb6c96a3b46ae736a628398c7c771ee3450804351", async() => {
                 WriteLiteral(@"
     <div class=""navbar bg-primary navbar-dark navbar-expand-sm"">
     <div class=""container"">

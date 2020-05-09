@@ -21,13 +21,13 @@ using ShopApp.WebUI.Models;
 #nullable disable
 #nullable restore
 #line 2 "C:\xampp\htdocs\first-core-mvc\ShopApp.WebUI\Views\_ViewImports.cshtml"
-using ShopApp.WebUI.ViewModels;
+using ShopApp.WebUI.ViewComponents;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"511f9e0e48ad53749fba937a4dd2888f20ab4291", @"/Views/Shared/_noproduct.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d92f221954cd04f7795f709513028a13b6a3d25", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0a2f431fdff61db06a429012157e63a377b7e971", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__noproduct : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

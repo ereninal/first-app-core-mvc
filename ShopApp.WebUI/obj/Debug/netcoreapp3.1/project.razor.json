@@ -17868,6 +17868,31 @@
         }
       },
       {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategoryViewComponentTagHelper",
+        "AssemblyName": "ShopApp.WebUI",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:category",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategoryViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Category"
+        }
+      },
+      {
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20573,6 +20598,16 @@
     {
       "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Shared\\Components\\Category\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Category\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\xampp\\htdocs\\first-core-mvc\\ShopApp.WebUI\\Views\\Home\\deneme.cshtml",
+      "TargetPath": "Views\\Home\\deneme.cshtml",
       "FileKind": "mvc"
     }
   ],
